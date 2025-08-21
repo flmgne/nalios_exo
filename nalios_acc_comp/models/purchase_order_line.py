@@ -1,6 +1,6 @@
 from odoo import fields, models
 
-class AccountMoveLine(models.Model):
-    _inherit = "account.move.line"
+class PurchaseOrderLine(models.Model):
+    _inherit = "purchase.order.line"
 
     inter_company_analytic_distribution = fields.Json()
